@@ -3,8 +3,12 @@ AMAZON EC2
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides computing resources that can be rizeable in the cloud. Amazon EC2 lets you launch virtual server instances on the AWS cloud. Each virtual server you launch is known as an **“instance”.**
 
 Preconfigured templates used for your instances are known as Amazon Machine Images (AMIs).
-
+Amazon Machine Image (AMI) is a template that contains the software configuration.
 Each AMI includes the information and some configuration needed to launch your EC2 instance (including the operating system and any included software packages).
+An AMI includes the following pieces:
+* Storage
+* Permissions
+* Mapping
 
 Amazon EC2 currently supports a variety of operating systems including:
 
@@ -84,6 +88,8 @@ The instance types are categories as follow:
 - May share hardware with other non-dedicated instances in the same account.
 - Available as On-Demand, Reserved Instances, and Spot Instances.
 - Cost additional $2 per hour per region.
+### ** Bare - metal instances **
+AWS also offers the use of bare-metal instances, this instances are different from an instance on a dedicated host because a dedicated host instance comes the virtualization software  ( the hypervisor) pre-installed.
 
 ## IP Addresses
 
